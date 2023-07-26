@@ -1,0 +1,68 @@
+/*
+* @title: Main CSS
+* @author: Paul Opitz
+* @date: 2023-07-26
+* 
+*/
+
+/******************************* RESET ********************************/
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+main {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+img {
+    display: block;
+}
+
+/******************************* VARIABLES ******************************/
+
+:root {
+    /** Colors **/
+    --primary: #3464e7;
+
+    /** Fonts **/
+    --font: 'Roboto';
+}
+
+/******************************* UTILITY ********************************/
+
+.center {
+    text-align: center;
+}
+
+/******************************* DEFAULTS ******************************/
+
+
+
+/******************************* BASICS ********************************/
+
+
+/******************************* LAYOUT ******************************/
+
+.wrapper {
+    max-width: 1800px;
+    height: 100vh;
+    margin: 0 auto;
+}
