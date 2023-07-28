@@ -20,7 +20,6 @@ const getSemitone = (name: string) => {
     };
     const octave = parseInt(name[name.length - 1]);
     const note = name.slice(0, -1);
-    console.log(octave, note)
     return semitones[note] + (12 * octave) + (startOctave * 12);
 }
 

@@ -86,7 +86,7 @@
 <style>
 	.keyboard {
 		width: 100%;
-		margin-bottom: 10px;
+		/* margin-bottom: 10px; */
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
